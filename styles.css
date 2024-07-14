@@ -1,0 +1,175 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Setting some variables */
+    --dark-bg: #1F2937;
+    --hero-main-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --button-color: #3882F6;
+    --info-header-text: #1F2937;
+    --quote-sec-bg: #E5E7EB;
+    --quote-text: #1F2937;
+}
+
+/* Header section */
+header, .sec-1 {
+    padding: 10px 150px;
+    background-color: var(--dark-bg);
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: var(--secondary-text);
+}
+
+#logo {
+    font-size: 24px;
+    color: var(--hero-main-text);
+}
+
+/* Section 1 */
+.sec-1 {
+    display: flex;
+    gap: 70px;
+    padding: 150px;
+}
+
+.text {
+    color: var(--secondary-text);
+    font-size: 18px;
+}
+
+.text > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--hero-main-text);
+}
+
+button {
+    background-color: var(--button-color);
+    color: var(--secondary-text);
+    font-weight: 900;
+    padding: 10px 30px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.image {
+    width: 85%;
+    color: var(--secondary-text);
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 2 */
+.sec-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px 150px 100px 150px;
+}
+
+.sec-2 > h2 {
+    padding: 20px 0 40px 0;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.block-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-block {
+    width: 150px;
+    height: 130px;
+    border: 3px solid var(--button-color);
+    border-radius: 10px;
+}
+
+#text-block {
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+}
+
+/* Section 3 */
+.sec-3 {
+    height: 300px;
+    background-color: var(--quote-sec-bg);
+    color: var(--quote-text);
+    font-size: 36px;
+    padding: 75px 150px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-3 > p {
+    width: 75%;
+    font-weight: 100;
+}
+
+.sec-3 #quote-by {
+    font-family:sans-serif;
+    font-style: normal; 
+    font-size: 50%;
+    font-weight: 800;
+    display: flex;
+    justify-content: end;
+}
+
+/* Section 4 */
+.sec-4 {
+    padding: 70px 150px;
+    font-size: 16px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--button-color);
+    color: var(--secondary-text);
+    padding: 40px 150px;
+    border-radius: 10px;
+}
+
+.sec-4-content p {
+    font-weight: 100;
+}
+
+.sign-up-btn {
+    border: 2px solid var(--secondary-text);
+    display: flex;
+    padding: 8px 25px;
+    border-radius: 8px;
+}
+
+/* Footer section */
+footer {
+    background-color: var(--dark-bg);
+    text-align: center;
+    color: var(--secondary-text);
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 100;
+}
